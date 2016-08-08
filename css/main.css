@@ -1,0 +1,44 @@
+
+*{
+	font-family: Open Sans;
+}
+
+.fondomain{
+	background-image: url(../img/background/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 630px;
+}
+
+.filtro{
+	width: 100%;
+	height: 630px;
+	background:rgba(0,0,0,0.3);
+	position: absolute;
+}
+
+nav{
+align-self: right;
+}
+
+nav>a{
+	text-decoration: none;
+	padding: 3%;
+	color: white;
+}
+
+h1{
+	font-weight: lighter;
+	color: white;
+	font-size: 3em;
+	margin-top: 200px;
+}
+
+span{
+	font-weight: bolder;
+}
+
+.material-icons{ 
+	color: #FB8C00; 
+}
+
