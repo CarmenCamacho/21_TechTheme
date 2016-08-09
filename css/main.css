@@ -1,6 +1,7 @@
 
 *{
 	font-family: Open Sans;
+	font-weight: normal;
 }
 
 .fondomain{
@@ -10,18 +11,31 @@
 	height: 630px;
 }
 
+
 .filtro{
-	width: 100%;
+	width: 91%;
 	height: 630px;
-	background:rgba(0,0,0,0.3);
+	background:rgba(0,0,0,0.5);
 	position: absolute;
 	z-index: 1;
+	margin-right: 5%;
+	
 }
 
+.fondocontacto{
+	background-image: url(../img/background/contactus.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 630px;
+	width: 100%;
+	z-index: -1;
+
+}
 
 nav{
 align-self: right;
-margin-top: 3%;
+margin-top: 4%;
+z-index: 100;
 }
 
 nav>a{
@@ -44,9 +58,6 @@ h1{
 	z-index: 100;
 }
 
-h2{
-	color: white;
-}
 
 h5{
 	position: relative;
@@ -54,9 +65,6 @@ h5{
 
 }
 
-span{
-	font-weight: bolder;
-}
 
 .material-icons{ 
 	color: #FB8C00; 
@@ -117,7 +125,7 @@ span{
 
 .button3:hover {
     background-color: #33aabb;/* Turquesa */
-    color: white;
+    color: white;s
 }
 
 .button4{
@@ -126,7 +134,7 @@ span{
 	margin-left: 1%;
 	background-color: #33aabb;/* Turquesa */
     border: none;
-    color: black;
+    color: white;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
@@ -138,9 +146,6 @@ span{
     color: white;
 }
 
-
-a>h2{
-	color:grey;
 }
 
 .light{
@@ -155,4 +160,34 @@ a>h2{
 	margin:3% 2% 3% 2%;
 	box-shadow: 2px 2px 2px 0px #aaaaaa; 
 
+}
+
+.z{
+	z-index: 100;
+}
+
+.relativo{
+	position: relative;
+}
+
+input{
+	width: 100%;
+	display: block;
+	padding: 5px 25px;
+	margin: 15px 0;
+	box-sizing: border-box;
+	opacity: 1;
+	background:rgba(200,200,200,0.4);
+	color:white;
+	position: relative;
+	font-size: 1em;
+	border: none;
+}
+
+.message{
+	height: 200px;
+}
+
+.opaco{
+	opacity: 1 !important;
 }
