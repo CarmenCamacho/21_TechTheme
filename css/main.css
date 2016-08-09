@@ -1,0 +1,196 @@
+/*Iana bloque 2 MORE FEATURES*/
+/*Section*/
+*{
+	font-family: Open sans; 
+	font-weight: lighter;
+}
+
+h4{
+	font-family: Open sans; 
+	font-weight: bold;
+}
+.textfeatures{
+	text-align: center;
+	padding-top:30px;
+	font-weight: bold;
+}
+
+.laptopimg{
+	margin-left: 60px;
+    width: 1000px;
+}
+
+.icons1{
+	width: 40px;
+	margin-left: 10px;
+	color:blue;
+}
+
+.titulo1{
+	margin-left: 60px;
+	margin-top: -50px;
+}
+
+.parrafo1{
+	margin-left: 60px;
+	margin-top: 10px;	
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.separador{
+	margin-top: 80px;
+}
+
+/*Final Section*/
+/*Iana FINAL bloque 2 MORE FEATURES*/
+
+/*Iana bloque 4 CHOOSE THE PACKAGE*/
+/*Section*/
+
+.backcity{
+	background-image: url("../img/background/city.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1320px;
+	height: 500px;
+	margin-left: -100px;
+	margin-top: 100px;	
+}
+
+.parrafoquisque{
+	color: white;
+	text-align: center;
+	margin-top: 150px;
+	filter: grayscale(70%);
+}	
+
+.callto{
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.backblack{
+	background-color: black;
+	opacity: 0.4;
+	width: 150px;
+	height: 50px;
+	margin-left: 470px;
+	margin-top: -250px;
+}
+
+.choosetittle{
+	color:gray;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.classp{
+	color:gray;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.box{
+    border: 1px solid #BDBDBD;
+    width: 300px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 60px;  
+}
+
+.button{
+	background-color: #424242;
+    width: 270px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.buttonb{
+	background-color: #01A9DB;
+    width: 270px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.standard{
+	margin-top: -70px;
+	text-align:  center;
+	color:white;
+	font-size: 25px;
+}
+
+.buttonwhite{
+	background-color:#D8D8D8;
+    width: 270px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.fromtext{
+	color: black;
+	margin-top: -90px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.parrafos{
+	margin-top: 80px;
+}
+
+.textp{
+	text-align: center;
+	font-size:12px;
+	color:#585858;
+	margin-top: 20px;
+}
+
+.buttonpurchase{
+	background-color: #1C1C1C;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.purchasetext{
+	margin-left: 103px;
+	margin-top:-25px;
+	color: white;
+	font-weight: lighter;
+}
+
+/*Final Section*/
+/*Iana bloque 4 WHAT OUR CUSTOMERS*/
+/*Section*/
+
+.customerstext{
+	text-align: center;
+	margin-top: 100px;
+	color: #2E2E2E;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.customerimg{
+    border-radius: 100%;
+    width: 120px;
+    margin-left: 480px;
+    margin-top: 20px;
+}
+
+.textcustomers{
+	text-align: center;
+}
+
+.dianar{
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+/*Final Section*/
+/*Iana bloque 6 FOLLOW US*/
+/*Footer*/
