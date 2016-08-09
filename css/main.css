@@ -1,6 +1,7 @@
 
 *{
 	font-family: Open Sans;
+	font-weight: normal;
 }
 
 .fondomain{
@@ -10,35 +11,183 @@
 	height: 630px;
 }
 
+
 .filtro{
-	width: 100%;
+	width: 91%;
 	height: 630px;
-	background:rgba(0,0,0,0.3);
+	background:rgba(0,0,0,0.5);
 	position: absolute;
+	z-index: 1;
+	margin-right: 5%;
+	
+}
+
+.fondocontacto{
+	background-image: url(../img/background/contactus.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 630px;
+	width: 100%;
+	z-index: -1;
+
 }
 
 nav{
 align-self: right;
+margin-top: 4%;
+z-index: 100;
 }
 
 nav>a{
 	text-decoration: none;
 	padding: 3%;
 	color: white;
+	font-weight: bold;
 }
+
+ a:hover{
+ 	color: #33aabb;
+ }
 
 h1{
 	font-weight: lighter;
 	color: white;
 	font-size: 3em;
 	margin-top: 200px;
+	position: relative;
+	z-index: 100;
 }
 
-span{
-	font-weight: bolder;
+
+h5{
+	position: relative;
+	z-index: 100;
+
 }
+
 
 .material-icons{ 
 	color: #FB8C00; 
 }
 
+.turquesa{
+	color: #33aabb;
+}
+
+.button1{
+	position: relative;
+	z-index: 100;
+	margin-top: 5%;
+	margin-right: 5%;
+	background:rgba(48,48,48,1);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+.button1:hover {
+    background-color: #33aabb; /* Turquesa */
+    color: white;
+}
+
+.button2{
+	position: relative;
+	z-index: 100;
+	margin-top: 5%;
+	background:rgba(0,0,0,0.2);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+}
+.button2:hover {
+    background-color: #33aabb; /* Turquesa */
+    color: white;
+}
+
+.button3{
+	position: relative;
+	margin-top: 2%;
+	margin-left: 1%;
+	background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.button3:hover {
+    background-color: #33aabb;/* Turquesa */
+    color: white;s
+}
+
+.button4{
+	position: relative;
+	margin-top: 2%;
+	margin-left: 1%;
+	background-color: #33aabb;/* Turquesa */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.button4:hover {
+    background-color: grey;
+    color: white;
+}
+
+}
+
+.light{
+	font-weight: lighter;
+}
+
+.marco{
+	width: 100%;
+	min-height: 200px;
+	background-color: white;
+	padding: 2%;
+	margin:3% 2% 3% 2%;
+	box-shadow: 2px 2px 2px 0px #aaaaaa; 
+
+}
+
+.z{
+	z-index: 100;
+}
+
+.relativo{
+	position: relative;
+}
+
+input{
+	width: 100%;
+	display: block;
+	padding: 5px 25px;
+	margin: 15px 0;
+	box-sizing: border-box;
+	opacity: 1;
+	background:rgba(200,200,200,0.4);
+	color:white;
+	position: relative;
+	font-size: 1em;
+	border: none;
+}
+
+.message{
+	height: 200px;
+}
+
+.opaco{
+	opacity: 1 !important;
+}
